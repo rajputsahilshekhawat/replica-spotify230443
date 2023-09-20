@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>    
+.model{
+    font-size: 8px;
+    font-weight: lighter;
+    text-align: center;
+}
+.border{
+    background-color: azure;
+}
+.bg{
+    width: 300px;
+    height: 800px;
+    background-color: black;
+    transition: all 5s linear 2s;
+}
+*{
+    background-color:;
+ }
+.cr1{
+    color: white;
+    text-align: center;
+    background-color: white;
+}
+.sidebar .logo img {
+  width: 130px;
+  background-color: black;
+}
+.sidebar .navigation ul {
+  list-style: none;
+  margin-top: 20px;
+  background-color: black;
+}
+.sidebar .navigation ul li a {
+  color: #b3b3b3;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: black;
+}
+
+.sidebar .policies {
+  position: absolute;
+  bottom: 100px;
+  background-color: black;
+}
+
+.sidebar .policies ul li a {
+  color: #b3b3b3;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 20px;
+  background-color: black;
+}
+.border{
+        border-top-style: solid;
+        border-width: 1px;
+        color: white;
+        border-radius: 999px;
+        background-color: black;
+
+    }
+    .border{
+        border-right: solid;
+        color: white;
+        border-radius: 999px;
+        background-color: black;
+    }
+    .model{
+        background-color: grey;
+        font-weight: normal;
+        text-align: center;
+        background-color: black;
+    }
+    .cr9{
+        color: beige;
+        width: 350px;
+        height: 200px;
+        background-color: darkorchid;
+    }
+    .cr0{
+        color: beige;
+        width: 200px;
+        height: 200px;
+        background-color: skyblue;
+        position: relative; left: 210px;
+    }
+
+    .container {
+        width: 100%;
+        display: flex;
+        flex-flow: column;
+    }
+    .container .banner {
+        display: flex;
+        flex-flow: column;
+
+        gap: 20px;
+    }
+    .container .banner .banner-container {
+        font-size: larger;
+        display: flex;
+        flex-flow: row;
+     
+        gap: 25px;
+    }
+
+    .main {
+        display: flex;
+        flex-flow: row;
+    }
+    .cr10 {
+        color: beige;
+        width: 350px;
+        height: 200px;
+        background-color: orange;
+    }
+    .searchbar {
+        background-color: white;
+        padding: 5px;
+        display: flex;
+        flex-flow: row;
+        justify-content: start;
+        align-items: center;
+        gap: 10px;
+        border: 1px solid black;
+        border-radius: 50px;
+        width: 50%;
+    }
+    input {
+        background-color: transparent;
+        border: none;
+        outline: none;
+        width: 100%;
+    }
+    img {
+        background-color: transparent;
+    }
+    .header {
+        display: flex;
+        flex-flow: row;
+    }
+    .header button {
+        border-radius: 50%;
+        background-color: transparent;
+        border: none;
+        outline: none;
+    }
+    [class *= "cr"] {
+        display: flex;
+        flex-flow: row;
+        gap: 15px;
+    }
+    .cr2{
+        color: beige;
+        width: 200px;
+        height: 200px;
+        background-color: lightgreen;
+    }
+    .cr3 {
+        color: beige;
+        width: 200px;
+        height: 200px;
+        background-color: darkcyan;
+    }
+    .cr4 {
+        color: beige;
+        width: 200px;
+        height: 200px;
+        background-color: darkorchid;
+    }
+    .cr5 {
+        color: beige;
+        width: 200px;
+        height: 200px;
+        background-color: red;
+    }
+    </style>
+</head>
+<body>
+    <div class="main">
+    <div class="bg">
+        <div class="sidebar">
+            <div class="logo">
+              <a href="#">
+                <img src="Spotify logo.png" alt="Logo" />
+              </a>
+            </div>
+      <br>
+      <br>
+      <br>
+      <br>
+            <div class="navigation">
+              <ul>
+                <li>
+                  <a href="#">
+                    <span class="fa fa-home"></span>
+                    <img src="home.svg" alt="Logo">
+                    <span>Home</span>
+                  </a>
+                </li>
+      
+                <li>
+                  <a href="#">
+                    <span class="fa fa-search"></span>
+                    <img src="search-white.svg" alt="Logo">
+                    <span>Search</span>
+                  </a>
+                </li>
+      
+                <li>
+                  <a href="#">
+                    <span class="fa fas fa-book"></span>
+                    <img src="library.svg" alt="Logo">
+                    <span>Your Library</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+
+            <div class="navigation">
+              <ul>
+                <li>
+                  <a href="#">
+                    <span class="fa fas fa-plus-square"></span>
+                    <img src="Plus-small.svg" alt="Logo">
+                    <span>Create Playlist</span>
+                  </a>
+                </li>
+        
+      
+                <li>
+                  <a href="#">
+                    <span class="fa fa-plus-square"></span>
+                    <img src="Heart.svg" alt="Logo">
+                    <span>Liked Songs</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <span class="fa fa-plus-square"></span>
+                    <img src="media-podcast.svg" alt="Logo">
+                    <span>Your Episodes</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+      
+            <div class="policies">
+              <ul>
+                <li>
+                    <img src="1.png" alt="Logo">
+                  <a href="#">Install App</a>
+                  
+
+                </li>
+                
+              </ul>
+            </div>
+          </div>
+       
+    </div>
+    <div class="container">
+        <div class="header">
+            <button>
+                <img src="./arrow-left.svg" alt="">
+            </button>
+            <button>
+                <img src="./arrow-right.svg" alt="">
+
+            </button>
+            <div class="searchbar">
+                <img src="./search.svg" alt="">
+                <input type="text" placeholder="Artists, Songs or Podcasts">
+            </div>
+        </div>
+        <div class="banner">
+            <h1>Your Top Genres</h1>
+            <div class="banner-container">
+                <div class="cr9">POP</div>
+                <div class="cr10">Hip Hop</div>
+            </div>
+        </div>
+        <div class="banner">
+            <h1>Browse All</h1>
+            <div class="banner-container">
+                <div class="cr2">Podcasts</div>
+                <div class="cr3">Made for you</div>
+                <div class="cr4">Charts</div>
+                <div class="cr5">New Released</div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
